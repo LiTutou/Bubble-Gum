@@ -28,7 +28,7 @@ module.exports = {
             { icon: "twitter", link: "https://google.com" },
         ],
         // 侧边导航栏
-        Views: {
+        sidebar: {
             'Views/study': [
                 {
                     text: "有关vitepress",
