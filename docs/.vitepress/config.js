@@ -65,7 +65,7 @@ module.exports = {
             ]
         },
         footer: {
-            message: '<a href="https://beian.miit.gov.cn/">豫ICP备2022027912号-1</a>',
+            message: '<a href="https://beian.miit.gov.cn/">豫ICP备2022027912号</a>',
             copyright: 'Copyright © 2022-present Xiao Bai'
         },
 
