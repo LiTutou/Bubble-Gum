@@ -24,8 +24,8 @@ module.exports = {
         ],
         // 链接
         socialLinks: [
-            { icon: "github", link: "https://google.com" },
-            { icon: "twitter", link: "https://google.com" },
+            { icon: "github", link: "" },
+            { icon: "twitter", link: "" },
         ],
         // 侧边导航栏
         sidebar: {
@@ -44,7 +44,7 @@ module.exports = {
                     collapsible: true,
                     collapsed: true,
                     items: [
-                        { text: "pina和vuex", link: "/Views/study" },
+                        { text: "vue导出pdf", link: "/Views/study" },
                     ],
                 },
             ],
