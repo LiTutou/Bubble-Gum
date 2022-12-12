@@ -5,8 +5,8 @@ module.exports = {
         // 顶部导航
         nav: [
             { text: '首页', link: '/' },
-            { text: '学习', link: '/study', target: '_blank' },
-            // { text: '谷歌', link: 'https://google.com', target: '_blank' },
+            { text: '学习', link: '/Sidebar/study', target: '_blank' },
+            { text: '谷歌', link: 'https://google.com', target: '_blank' },
             //通过items数组设置下拉列表
             // {
             //     text: 'Language',
@@ -18,9 +18,14 @@ module.exports = {
             //     ]
             // },
         ],
+        // 链接
+        // socialLinks: [
+        //     { icon: "github", link: "https://google.com" },
+        //     { icon: "twitter", link: "https://google.com" },
+        // ],
         // 侧边导航栏
         sidebar: {
-            'study': [
+            'Sidebar/study': [
                 {
                     text: "学习vitepress",
                     collapsible: true, //   是否可折叠
@@ -32,7 +37,7 @@ module.exports = {
                     prevLinks: false,
                     items: [
                         { text: "index", link: "/" },
-                        { text: "pdf", link: "/pdf" },
+                        { text: "pdf", link: "/Sidebar/study" },
                     ],
                 },
                 {
@@ -40,7 +45,7 @@ module.exports = {
                     collapsible: true,
                     collapsed: true,
                     items: [
-                        { text: "pina和vuex", link: "/pdf", },
+                        { text: "pina和vuex", link: "/Sidebar/study", },
                     ],
                 },
             ]
