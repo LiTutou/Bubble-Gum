@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: Bubble Gum的博客
-  text: 偶尔写写呜呜
+  name: Bubble Gum
+  text: 偶尔写写
   tagline: by 小白 一个前端小菜鸡~
   image:
     src:
