@@ -1,11 +1,15 @@
 module.exports = {
     title: 'Bubble Gum',
     description: 'asdasdasd',
+    lastUpdated: true,
+    outDir: '../dist',
     themeConfig: {
+        lastUpdatedText: "最后更新时间",
         // 顶部导航
         nav: [
             { text: '首页', link: '/' },
-            { text: '学习', link: '/Sidebar/study', target: '_blank' },
+            { text: '关于前端', link: '/Views/study', target: '_blank' },
+            { text: '关于摄影', link: '/Views/photography', target: '_blank' },
             { text: 'Google', link: 'https://google.com', target: '_blank' },
             //通过items数组设置下拉列表
             // {
@@ -24,28 +28,38 @@ module.exports = {
             { icon: "twitter", link: "https://google.com" },
         ],
         // 侧边导航栏
-        sidebar: {
-            'Sidebar/study': [
+        Views: {
+            'Views/study': [
                 {
-                    text: "学习vitepress",
+                    text: "有关vitepress",
                     collapsible: true, //   是否可折叠
                     collapsed: false, //    默认折叠
-
-                    // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
-                    nextLinks: false,
-                    // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
-                    prevLinks: false,
                     items: [
                         { text: "index", link: "/" },
-                        { text: "pdf", link: "/Sidebar/study" },
+                        { text: "pdf", link: "/Views/study" },
                     ],
                 },
                 {
-                    text: "vue教程",
+                    text: "有关vue",
                     collapsible: true,
                     collapsed: true,
                     items: [
-                        { text: "pina和vuex", link: "/Sidebar/study", },
+                        { text: "pina和vuex", link: "/Views/study" },
+                    ],
+                },
+            ],
+            'Views/photography': [
+                {
+                    text: "关于摄影",
+                    collapsible: true,
+                    collapsed: false,
+                    lastupdated: true,
+                    items: [
+                        {
+                            text: "开篇", link: "/Views/photography",
+                            lastupdated: true,
+                        },
+                        { text: "阿巴阿巴阿巴", link: "/Views/study" },
                     ],
                 },
             ]

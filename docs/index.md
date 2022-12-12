@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 这是一个按钮
-      link: /Sidebar/study
+      link: /Views/study
     - theme: alt
       text: 这是去往百度的按钮
       link: https://baidu.com

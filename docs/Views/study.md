@@ -1,5 +1,3 @@
-asdad
-
 ## 导出 pdf
 
 [[toc]]
@@ -10,6 +8,21 @@ asdad
 ::: info
 This is an info box.
 :::
+
+
+::: tip
+This is a tip
+:::
+
+::: warning
+This is a warning
+:::
+
+::: danger
+This is a dangerous warning
+:::
+
+
 
 ##### 导出 pdf
 
@@ -108,4 +121,3 @@ export default {
 
 ### 导出 pdf
 
-## 测试 2
