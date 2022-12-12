@@ -6,7 +6,7 @@ module.exports = {
         nav: [
             { text: '首页', link: '/' },
             { text: '学习', link: '/Sidebar/study', target: '_blank' },
-            { text: '谷歌', link: 'https://google.com', target: '_blank' },
+            { text: 'Google', link: 'https://google.com', target: '_blank' },
             //通过items数组设置下拉列表
             // {
             //     text: 'Language',
@@ -19,10 +19,10 @@ module.exports = {
             // },
         ],
         // 链接
-        // socialLinks: [
-        //     { icon: "github", link: "https://google.com" },
-        //     { icon: "twitter", link: "https://google.com" },
-        // ],
+        socialLinks: [
+            { icon: "github", link: "https://google.com" },
+            { icon: "twitter", link: "https://google.com" },
+        ],
         // 侧边导航栏
         sidebar: {
             'Sidebar/study': [
