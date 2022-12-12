@@ -44,6 +44,27 @@ module.exports = {
                     collapsible: true,
                     collapsed: true,
                     items: [
+                        { text: "合并数组数据", link: "/Views/mergeArray" },
+                        { text: "vue导出pdf", link: "/Views/study" },
+                    ],
+                },
+            ],
+            'Views/mergeArray': [
+                {
+                    text: "有关vitepress",
+                    collapsible: true, //   是否可折叠
+                    collapsed: false, //    默认折叠
+                    items: [
+                        { text: "index", link: "/" },
+                        { text: "pdf", link: "/Views/study" },
+                    ],
+                },
+                {
+                    text: "有关vue",
+                    collapsible: true,
+                    collapsed: true,
+                    items: [
+                        { text: "合并数组数据", link: "/Views/mergeArray" },
                         { text: "vue导出pdf", link: "/Views/study" },
                     ],
                 },
