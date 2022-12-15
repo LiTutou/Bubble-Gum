@@ -16,7 +16,7 @@ module.exports = {
                 target: '_blank',
             },
             {
-                text: '关于摄影',
+                text: '关于爱好',
                 activeMatch: "^/Interest/",
                 link: '/Interest/photography',
                 target: '_blank',
