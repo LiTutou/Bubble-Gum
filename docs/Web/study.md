@@ -1,16 +1,16 @@
-# 利用jspdf和jspdf-autotable将表格数据导出pdf
+# 利用 jspdf 和 jspdf-autotable 将表格导出为 pdf
 
-##  引入jspdf和jspdf-autotable
+#### 根据公司业务 部分数据有所修改正在修改中
+
+## 引入 jspdf 和 jspdf-autotable
+
 <!-- [[toc]] -->
 
 ```javascript
-
-import "./simhei-normal";   //这个是字体文件后面会写到
+import "./simhei-normal"; //这个是字体文件后面会写到
 import autoTable from "jspdf-autotable";
 import jsPDF from "jspdf";
-
 ```
-
 
 ##### 导出 pdf
 
@@ -102,10 +102,3 @@ export default {
   },
 };
 ```
-
-### 导出 pdf
-
-## 测试 1
-
-### 导出 pdf
-

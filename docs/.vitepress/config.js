@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Bubble Gum',
-    description: 'asdasdasd',
+    description: 'A VitePress site,html,css,javascript,vue....',
     lastUpdated: true,
     outDir: '/dist',
     themeConfig: {
@@ -60,7 +60,7 @@ module.exports = {
                     collapsed: true,
                     items: [
                         { text: "vue导出pdf", link: "/Web/study" },
-                        { text: "合并数组数据", link: "/Web/mergeArray" },
+                        { text: "javascript封装的部分函数", link: "/Web/mergeArray" },
                     ],
                 }
             ],
