@@ -2,7 +2,7 @@ module.exports = {
     title: 'Bubble Gum',
     description: 'asdasdasd',
     lastUpdated: true,
-    outDir: '../dist',
+    outDir: '/dist',
     themeConfig: {
         // 编辑本页
         // editLink: {
