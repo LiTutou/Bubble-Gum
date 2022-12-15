@@ -20,13 +20,13 @@ features:
   - icon: ⚡️
     title: 这是一个闪电图标
     details: wawawa
-    # link: https://google.com
+    link: '#'
   - icon: -.-
     title: 阿巴阿巴阿巴...
     details: good...
-    # link: https://google.com
+    link: https://google.com
   - icon: 🔥
     title: 哇咔咔咔~
     details: wakakakaka***
-    # link: https://google.com
+    link: '#'
 ---

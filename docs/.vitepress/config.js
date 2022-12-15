@@ -4,14 +4,25 @@ module.exports = {
     lastUpdated: true,
     outDir: '../dist',
     themeConfig: {
-        lastUpdatedText: "最后更新时间",
+        lastUpdatedText: "Last updated",
         // 顶部导航
         nav: [
             { text: '首页', link: '/' },
-            { text: '关于前端', link: '/Views/study', target: '_blank' },
-            { text: '关于摄影', link: '/Views/photography', target: '_blank' },
+            {
+                text: '关于前端',
+                // 当前路径下导航链接高亮显示
+                activeMatch: "^/Web/",
+                link: '/Web/study',
+                target: '_blank',
+            },
+            {
+                text: '关于摄影',
+                activeMatch: "^/Interest/",
+                link: '/Interest/photography',
+                target: '_blank',
+            },
             { text: 'Google', link: 'https://google.com', target: '_blank' },
-            //通过items数组设置下拉列表
+            // 通过items数组设置下拉列表
             // {
             //     text: 'Language',
             //     ariaLabel: 'Language Menu',
@@ -28,15 +39,15 @@ module.exports = {
             { icon: "twitter", link: "" },
         ],
         // 侧边导航栏
-        sidebar: {
-            'Views/study': [
+        sidebar:
+        {
+            "/Web/": [
                 {
                     text: "有关vitepress",
                     collapsible: true, //   是否可折叠
                     collapsed: false, //    默认折叠
                     items: [
-                        { text: "index", link: "/" },
-                        { text: "pdf", link: "/Views/study" },
+                        { text: "vitepress", link: "/Web/vitepress" },
                     ],
                 },
                 {
@@ -44,46 +55,21 @@ module.exports = {
                     collapsible: true,
                     collapsed: true,
                     items: [
-                        { text: "合并数组数据", link: "/Views/mergeArray" },
-                        { text: "vue导出pdf", link: "/Views/study" },
+                        { text: "vue导出pdf", link: "/Web/study" },
+                        { text: "合并数组数据", link: "/Web/mergeArray" },
                     ],
-                },
+                }
             ],
-            'Views/mergeArray': [
+            "/Interest/": [
                 {
-                    text: "有关vitepress",
+                    text: "我的兴趣爱好",
                     collapsible: true, //   是否可折叠
                     collapsed: false, //    默认折叠
                     items: [
-                        { text: "index", link: "/" },
-                        { text: "pdf", link: "/Views/study" },
+                        { text: "摄影", link: "/Interest/photography" },
                     ],
-                },
-                {
-                    text: "有关vue",
-                    collapsible: true,
-                    collapsed: true,
-                    items: [
-                        { text: "合并数组数据", link: "/Views/mergeArray" },
-                        { text: "vue导出pdf", link: "/Views/study" },
-                    ],
-                },
+                }
             ],
-            'Views/photography': [
-                {
-                    text: "关于摄影",
-                    collapsible: true,
-                    collapsed: false,
-                    lastupdated: true,
-                    items: [
-                        {
-                            text: "开篇", link: "/Views/photography",
-                            lastupdated: true,
-                        },
-                        { text: "阿巴阿巴阿巴", link: "/Views/study" },
-                    ],
-                },
-            ]
         },
         footer: {
             message: '<a href="https://beian.miit.gov.cn/">豫ICP备2022027912号</a>',
