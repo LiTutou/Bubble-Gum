@@ -4,6 +4,10 @@ module.exports = {
     lastUpdated: true,
     outDir: '../dist',
     themeConfig: {
+        // 编辑本页
+        // editLink: {
+        //     pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
+        // },
         lastUpdatedText: "Last updated",
         // 顶部导航
         nav: [
