@@ -77,7 +77,7 @@ module.exports = {
         },
         footer: {
             message: '<a href="https://beian.miit.gov.cn/">豫ICP备2022027912号</a>',
-            copyright: 'Copyright © 2022-present Xiao Bai'
+            copyright: 'Copyright © 2022-present by <a href="https://vitepress.vuejs.org/">VitePress</a> & Xiao Bai'
         },
 
     }
