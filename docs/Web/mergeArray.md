@@ -168,11 +168,11 @@ export function debounce(fn, delay) {
 ```javascript
 /**
  * 计算操作
- * @param {除法函数}
+ * @param {加减乘除函数}
  * @param {*} arg2
  * 说明：javascript的加减乘除计算结果会有误差
  * 在两个浮点数相除的时候会比较明显
- * 返回值：arg1除以arg2的精确结果
+ * 返回值：arg1与arg2计算的精确结果
  */
 
 // 除法
