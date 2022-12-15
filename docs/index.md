@@ -34,7 +34,7 @@ features:
 <script>
 export default {
   created() {
-    console.log('Wechat:lz755987');
+    console.log('Up Wechat:lz755987');
   },
 }
 </script>
