@@ -27,7 +27,7 @@ features:
     # link: https://google.com
   - icon: 🔥
     title: 哇咔咔咔~
-    details: wakakakaka***
+    details: wakakakaka~~~
     link: "#"
 ---
 
