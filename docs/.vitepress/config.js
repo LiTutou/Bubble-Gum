@@ -66,7 +66,7 @@ module.exports = {
             ],
             "/Interest/": [
                 {
-                    text: "我的兴趣爱好",
+                    text: "关于摄影",
                     collapsible: true, //   是否可折叠
                     collapsed: false, //    默认折叠
                     items: [
