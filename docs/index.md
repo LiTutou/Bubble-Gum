@@ -24,7 +24,7 @@ features:
   - icon: -.-
     title: 阿巴阿巴阿巴...
     details: good...
-    # link: https://google.com
+    link: https://google.com
   - icon: 🔥
     title: 哇咔咔咔~
     details: wakakakaka~~~

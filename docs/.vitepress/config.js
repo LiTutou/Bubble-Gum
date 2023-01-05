@@ -25,6 +25,12 @@ module.exports = {
                 link: '/Interest/photography',
                 target: '_blank',
             },
+            {
+                text: '闲聊',
+                activeMatch: "^/Casual/",
+                link: '/Casual/casual',
+                target: '_blank',
+            },
             { text: 'Google', link: 'https://google.com', target: '_blank' },
             // 通过items数组设置下拉列表
             // {
@@ -71,6 +77,17 @@ module.exports = {
                     collapsed: false, //    默认折叠
                     items: [
                         { text: "摄影", link: "/Interest/photography" },
+                    ],
+                }
+            ],
+            "/Casual/": [
+                {
+                    text: "闲聊",
+                    collapsible: true, //   是否可折叠
+                    collapsed: false, //    默认折叠
+                    items: [
+                        { text: "阳康过后...", link: "/Casual/casual" },
+                        { text: "困...", link: "/Casual/abaaba" },
                     ],
                 }
             ],
