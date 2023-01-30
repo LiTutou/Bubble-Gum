@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Bubble Gum',
+    title: 'Liquorice',
     description: 'A VitePress site,html,css,javascript,vue....',
     lastUpdated: true,
     outDir: '../dist',
@@ -88,6 +88,7 @@ module.exports = {
                     items: [
                         { text: "阳康过后...", link: "/Casual/casual" },
                         { text: "困...", link: "/Casual/abaaba" },
+                        { text: "复工第一天", link: "/Casual/no 1" },
                     ],
                 }
             ],

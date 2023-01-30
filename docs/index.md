@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Bubble Gum
+  name: Liquorice
   text: 偶尔写写
   tagline: by 小白 一个前端小菜鸡~
   image:
